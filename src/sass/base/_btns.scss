@@ -1,0 +1,23 @@
+.btn {
+    width: 206px;
+    height: 56px;
+    background: linear-gradient(297.24deg, #3F6CEC 8.25%, #2E54B4 91.76%), linear-gradient(297.24deg, #3171D2 8.25%, #1D39A4 91.76%), linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #C4D3EB 100%), #F9FBFF;
+    border-radius: 10px;
+    border: none;
+    font-family: Pantone-light;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    &_unclaim{
+        background: none;
+        border: 2px solid #3058C2;
+        filter: drop-shadow(0px 24px 25px rgba(0, 0, 0, 0.07));
+        color:#3F6CEC ;
+    }
+    &:hover{
+        box-shadow: 0px 19px 25px rgba(57, 81, 160, 0.34);
+    }
+
+}

@@ -1,0 +1,44 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@font-face {
+    font-family: 'Pantone-bold';
+    src: url('../fonts/Panton-Bold.ttf'), url('../fonts/Panton-Bold.woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pantone-regular';
+    src: url('../fonts/Panton-Regular.ttf'), url('../fonts/Panton-Regular.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pantone-light';
+    src: url('../fonts/Panton-Light.ttf'), url('../fonts/Panton-Light.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Pantone-regular';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+
+@import 'base/_mixins';
+@import 'base/_variables';
+@import 'base/_origin';
+@import 'base/_bg';
+@import 'base/_btns';
+@import 'blocks/header';
+
+@import 'base/_media';

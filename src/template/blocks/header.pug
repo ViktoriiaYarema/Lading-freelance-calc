@@ -1,0 +1,32 @@
+section.header 
+    .bg.bg_header_wave
+    .bg.bg_header_main
+    .bg.under-main
+    .bg.under-main.under-main_back
+    .container
+        .header__wrapper
+            .header__menu
+                .header__logo 
+                    img(src="../icons/logo.svg", alt="logo") 
+                .header__lang 
+                    .header__icon 
+                        img(src="../icons/flags/flag-USA.svg", alt="flag USA")
+                    .header__input-lang En
+                    .header__lang-btn
+                    .header__lang_menu
+                        a.header__lang_menu-item Lorem 
+                        a.header__lang_menu-item Ipsum
+                .header__hamburger 
+                    .menu__hamburger#menu-burger
+                        .bar1.bar
+                        .bar2.bar
+                        .bar3.bar
+            .header__hero 
+                h1.header__title Lorem ipsum dolor 
+                .header__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                button.btn.header__btn Lorem
+                button.btn.btn_unclaim.header__btn Lorem
+            .header__sub-hero
+                +block('../icons/btn-icons/icon-1.svg', 'lorem') 
+                +block('../icons/btn-icons/icon-2.svg', 'lorem')
+                +block('../icons/btn-icons/icon-3.svg', 'lorem')
