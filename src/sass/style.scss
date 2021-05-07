@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'Pantone-regular';
     src: url('../fonts/Panton-Regular.ttf'), url('../fonts/Panton-Regular.woff');
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -40,5 +40,7 @@
 @import 'base/_bg';
 @import 'base/_btns';
 @import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/app';
 
 @import 'base/_media';

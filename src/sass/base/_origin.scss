@@ -39,3 +39,22 @@
 .active {
     display: block;    
 }
+
+.title {
+    color: $text-color;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'Pantone-light';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #737889;
+    opacity: 0.7;
+    text-align: center;
+}

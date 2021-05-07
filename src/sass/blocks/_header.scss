@@ -76,8 +76,13 @@
     }
     &__btn{
         margin-top: 15px;
+        &:hover{
+            color: mintcream;
+            border: none;
+        }
     }
     &__sub-hero{
+        padding-bottom: 50px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -96,7 +101,12 @@
             border-radius: 65.4517px;
             text-align: center;
             z-index: 1;
-            box-shadow: 0px 29px 40px 6px rgba(172, 184, 207, 0.35);            
+            box-shadow: 0px 29px 40px 6px rgba(172, 184, 207, 0.35);   
+            &:hover {
+                background: rgb(85,11,155);
+                background: linear-gradient(82deg, rgba(85,11,155,1) 35%, rgba(0,224,255,1) 100%);;
+                filter: drop-shadow(0px 24px 25px rgba(0, 0, 0, 0.07));
+            } 
             img{
                 width: 28.64px;
                 height: 28.64px;
@@ -112,7 +122,12 @@
                 opacity: 0.5;
                 border: 1.3px solid #2E55CF;
                 border-radius: 65.4517px;
+                &:hover{
+                    animation: pulse 0.5s ease-in-out 0.3s infinite normal;
+                    border-color: chocolate;
+                }             
             }
+            
             &_big{
                 position: absolute;
                 top: 50%;
@@ -122,8 +137,8 @@
                 height: 83.12px;
                 opacity: 0.12;
                 border: 1.3341px solid #2E55CF;
-                border-radius: 120.069px;
-            }
+                border-radius: 120.069px;              
+            }            
             &_wrapper{
                 position: relative;
             }
@@ -138,7 +153,6 @@
                 border-radius: 33.3526px;
                 z-index: 5px;
                 box-shadow: 0px 29px 40px 6px rgba(172, 184, 207, 0.35);
-
             }
 
             &_big{
@@ -159,6 +173,15 @@
         }
         
     }
+    &__circles_wrapper{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top: -23%;
+        &:hover{
+            animation: pulse 0.5s ease-in-out 0.3s infinite normal;
+        }
+    }
 }
 
 .active {
@@ -169,3 +192,16 @@
 .active-arr{
     transform: rotate(-90deg);
 }   
+
+@keyframes pulse {
+    0% {      
+        transform: scale(0.8);
+    }
+    50% {        
+        transform: scale(1);
+    }
+    100% {        
+        transform: scale(1.1);
+    }
+}
+

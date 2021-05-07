@@ -2,7 +2,15 @@ mixin block(imgUrl, title)
     .header__sub-hero__block
         .header__sub-hero__circle
             img(class!=attributes.class src=imgUrl)
-            .header__sub-hero__circle_small
-            .header__sub-hero__circle_big
+            .header__circles_wrapper
+                .header__sub-hero__circle_small
+                .header__sub-hero__circle_big            
         .header__sub-hero__piece_small
         .header__sub-hero__piece_big=title
+
+mixin about-block 
+    .about__block 
+        .about__icon
+            img(src="../icons/icon-search.svg", alt="icon-about")
+        .about__title Lorem Ipsum
+        .about__descr Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
