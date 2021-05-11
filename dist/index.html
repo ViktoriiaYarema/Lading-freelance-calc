@@ -126,7 +126,29 @@
         <h2 class="title">Rewards Calculator</h2>
         <div class="subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
         <div class="block calc__block"> 
-          <div class="calc__slider"> </div>
+          <div class="calc__slider">
+            <div class="slider__wrapper"> 
+              <div class="slide active_slide">
+                <div class="slide__title">Maneki-neko</div><img src="../img/cat.svg" alt="cat">
+                <div class="slide__title">Rick</div>
+              </div>
+              <div class="slide slide_next">
+                <div class="slide__title">2 </div>
+              </div>
+              <div class="slide">
+                <div class="slide__title">3</div>
+              </div>
+              <div class="slide">
+                <div class="slide__title">4</div>
+              </div>
+              <div class="slide slide_prev">
+                <div class="slide__title">5</div>
+              </div>
+              <div id="btn-prev"> </div>
+              <div id="btn-next"> </div>
+            </div>
+            <div class="dots__wrapper"> <span class="dot active_dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span></div>
+          </div>
           <div class="calc__calc">
             <div class="calc__info">
               <div class="calc__stake"> <span class="calc__text">Your stake </span>
@@ -158,10 +180,12 @@
                 </div>
               </div>
             </div>
+            <button class="btn calc__btn">Stake </button>
           </div>
         </div>
       </div>
     </section>
+    <script src="../js/slider.js">  </script>
     <script src="../js/script.js"></script>
   </body>
 </html>

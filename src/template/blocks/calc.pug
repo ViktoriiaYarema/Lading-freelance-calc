@@ -3,7 +3,28 @@ section.calc
         h2.title Rewards Calculator
         .subtitle Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         .block.calc__block 
-            .calc__slider 
+            .calc__slider
+                .slider__wrapper 
+                    .slide.active_slide
+                        div.slide__title Maneki-neko
+                        img(src="../img/cat.svg", alt="cat") 
+                        div.slide__title Rick
+                    .slide.slide_next
+                        div.slide__title 2 
+                    .slide
+                        div.slide__title 3
+                    .slide
+                        div.slide__title 4
+                    .slide.slide_prev
+                        div.slide__title 5
+                    #btn-prev 
+                    #btn-next 
+                .dots__wrapper 
+                    span.dot.active_dot 
+                    span.dot 
+                    span.dot 
+                    span.dot 
+                    span.dot 
             .calc__calc
                 .calc__info
                     .calc__stake 
@@ -35,3 +56,4 @@ section.calc
                             span.calc__item_flx-start Yearly
                             span#yearly-persent 36.00 %
                             input(type="number" id="yearly" class="total-amount" value="0" readonly)
+                button.btn.calc__btn Stake 

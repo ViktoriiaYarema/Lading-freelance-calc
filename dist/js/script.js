@@ -86,7 +86,6 @@ rangeCanculate();
 
 // Check for null input
 const numInputs = document.querySelectorAll('input[type=number]')
-console.log(numInputs)
 numInputs.forEach(function(input) {
   input.addEventListener('change', function(e) {
     if (e.target.value == '') {

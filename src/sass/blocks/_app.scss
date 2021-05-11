@@ -7,6 +7,9 @@
         font-family: 'Pantone-bold';
         font-size: 20px;
         color: $main-color;
+        &:hover{
+            color: #1B3D58;
+        }
     }
     &__descr{
         margin-top: 8px;
@@ -20,6 +23,9 @@
             width: 99%;
             height: 0px;
             border-top: 2px dashed $main-color;
+        }
+        &:hover{
+            color: #4B6476;
         }
     }
     &__phone{

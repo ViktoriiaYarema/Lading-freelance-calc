@@ -4,13 +4,13 @@
     background: linear-gradient(297.24deg, #3F6CEC 8.25%, #2E54B4 91.76%), linear-gradient(297.24deg, #3171D2 8.25%, #1D39A4 91.76%), linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #C4D3EB 100%), #F9FBFF;
     border-radius: 10px;
     border: none;
-    font-family: Pantone-light;
+    font-family: 'Pantone-light';
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
     text-transform: uppercase;
-    transition: all 150ms ease-in-out;    
+    transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);    
     &:hover {
         background: rgb(85,11,155);
         background: linear-gradient(82deg, rgba(85,11,155,1) 35%, rgba(0,224,255,1) 100%);;
