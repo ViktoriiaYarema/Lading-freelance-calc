@@ -1,0 +1,37 @@
+section.calc 
+    .container 
+        h2.title Rewards Calculator
+        .subtitle Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        .block.calc__block 
+            .calc__slider 
+            .calc__calc
+                .calc__info
+                    .calc__stake 
+                        span.calc__text Your stake 
+                        input(type="number" value="0"  id="stake" class="stake" )
+                        span.error-message Enter numbers only
+                    .calc__apr 
+                        span.calc__text APR 
+                        .range__wrapp
+                            span +
+                            input( type="number" id="apr" class="stake" value="0")                            
+                            span %
+                    .calc__range
+                        span#range-track.range__track
+                        input(type="range", name="" min="0" max="200000"  step="10" id="range" value="0" class="range")
+                .calc__amount
+                    .calc__wrapp
+                        .calc__item  
+                            span.calc__item_flx-start Daily 
+                            span#daily-persent 0.10 %
+                            input(type="number" id="daily" class="total-amount" value="0" readonly)
+                    .calc__wrapp
+                        .calc__item 
+                            span.calc__item_flx-start Monthly 
+                            span#monthly-persent 3.00 %
+                            input(type="number" id="monthly" class="total-amount" value="0" readonly)
+                    .calc__wrapp
+                        .calc__item
+                            span.calc__item_flx-start Yearly
+                            span#yearly-persent 36.00 %
+                            input(type="number" id="yearly" class="total-amount" value="0" readonly)
