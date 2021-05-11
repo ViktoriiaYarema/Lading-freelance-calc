@@ -58,3 +58,12 @@
     opacity: 0.7;
     text-align: center;
 }
+.block{
+    position: relative;
+    width: 100%;
+    min-height: 438px; 
+    background: linear-gradient(297.24deg, rgba(232, 239, 252, 0.25) 8.25%, rgba(255, 255, 255, 0.25) 91.76%), #FFFFFF;
+    border-radius: 41.4804px;
+    z-index: 2;
+    padding: 36px 28px 28px;
+}

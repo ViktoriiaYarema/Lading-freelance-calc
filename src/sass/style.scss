@@ -27,10 +27,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(180deg, #D7E4FE 0%, rgba(250, 251, 251, 0.0001) 100%);
+}
+svg path {
+    stroke:inherit;
+    stroke-width:inherit;
+    fill:inherit;
+}
+
 .container{
     position: relative;
     max-width: 320px;
     margin: 0 auto;
+   
 }
 
 
@@ -42,5 +52,6 @@
 @import 'blocks/header';
 @import 'blocks/about';
 @import 'blocks/app';
+@import 'blocks/calc';
 
 @import 'base/_media';

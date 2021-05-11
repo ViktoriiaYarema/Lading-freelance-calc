@@ -1,3 +1,9 @@
+.icon{
+    fill: #FFFFFF;
+    width: 33px;
+    height: 33px;
+    transform: translateY(50%);
+}
 .header{
     position: relative;
     z-index: 3;
@@ -82,7 +88,8 @@
         }
     }
     &__sub-hero{
-        padding-bottom: 50px;
+        margin-top: 66px;
+        padding-bottom: 75px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -101,16 +108,17 @@
             border-radius: 65.4517px;
             text-align: center;
             z-index: 1;
-            box-shadow: 0px 29px 40px 6px rgba(172, 184, 207, 0.35);   
+            box-shadow: 0px 12px 20px 6px rgba(172, 184, 207, 0.8);   
             &:hover {
-                background: rgb(85,11,155);
-                background: linear-gradient(82deg, rgba(85,11,155,1) 35%, rgba(0,224,255,1) 100%);;
-                filter: drop-shadow(0px 24px 25px rgba(0, 0, 0, 0.07));
+                background: linear-gradient(0deg, rgba(27, 48, 117, 0.6), rgba(27, 48, 117, 0.6)), linear-gradient(297.24deg, #3F6CEC 8.25%, #2E54B4 91.76%), #FFFFFF;
+                box-shadow:  0px 12px 20px 6px rgba(#2E55CF, 0.35);  
+                
             } 
-            img{
-                width: 28.64px;
-                height: 28.64px;
-                transform: translateY(50%);
+            &:active{
+                background: linear-gradient(180.1deg, rgba(255, 255, 255, 0) -21.77%, rgba(209, 213, 230, 0.74) 99.91%), #FFFFFF;
+                .icon{
+                    fill: $main-color;
+                }
             }
             &_small{
                 position: absolute;
