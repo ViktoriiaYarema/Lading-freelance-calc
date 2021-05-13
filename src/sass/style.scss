@@ -28,7 +28,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(180deg, #708bc0 0%, rgba(250, 251, 251, 0.0001) 100%);
+    background: linear-gradient(170deg, #c2d3f3 0%, rgba(250, 251, 251, 0.0001) 100%);
 }
 svg path {
     stroke:inherit;
@@ -55,5 +55,7 @@ svg path {
 @import 'blocks/app';
 @import 'blocks/calc';
 @import 'blocks/social';
+@import 'blocks/contact';
+@import 'blocks/footer';
 
 @import 'base/_media';

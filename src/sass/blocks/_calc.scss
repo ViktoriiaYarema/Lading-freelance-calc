@@ -1,9 +1,12 @@
 .calc{
+    padding-top: 36px;
     &__block{
         width: 100%;
         margin-top: 38px;
         overflow-x: hidden;
-        
+        &_sub{            
+            transform: translate(8px, -124px);
+        }        
     }
     &__calc{
         margin-top: 19px;

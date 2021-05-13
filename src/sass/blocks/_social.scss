@@ -1,4 +1,5 @@
 .social{
+    padding-top: 20px;
     &__wrapper{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -13,11 +14,14 @@
     &__icon{
         position: absolute;
         z-index: 20;
-        transform: translateX(30px) translateY(42px);
+        transform: translateX(27px) translateY(42px);
         svg path {
             width: 28px;
             height: 28px;
-            fill: #254FB5;;
+            fill: #254FB5;
+            &:hover{
+                fill:#ffffff;
+            }
         }
     }
     &__circle{
@@ -38,7 +42,7 @@
             box-shadow: 0px 15px 26px -2px rgba(24, 70, 156, 0.5);  
             z-index: 10;
             top: 5px;
-            left: 4.5px;
+            left: 4.5px;    
         }       
         &_small{  
             position: absolute;     
@@ -49,6 +53,15 @@
             border-radius: 90px;
             z-index: 10;
             box-shadow: 0px 22px 26px -2px rgba(14, 60, 145, 0.5);
+
+        }
+        &:hover{
+            svg path {
+                fill: #fff;
+            }
+            .social__circle_big{
+                background: linear-gradient(297.24deg, #2a53c4 8.25%, #0632a1 91.76%);
+            }
         }
     }
     &__piece{

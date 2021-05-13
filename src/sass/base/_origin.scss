@@ -66,4 +66,21 @@
     border-radius: 41.4804px;
     z-index: 2;
     padding: 36px 28px 28px;
+    z-index: 50;
+    &__sub{
+        position: absolute;
+        width: 95%;
+        height: 136px;
+        background: #ffffff;
+        opacity: 0.4;
+        border-radius: 41.4804px;
+    }
+    &__second{
+        position: absolute;
+        width: 79%;
+        height: 136px;
+        background: #faf8f8;
+        opacity: 0.2;
+        border-radius: 41.4804px;
+    }
 }
