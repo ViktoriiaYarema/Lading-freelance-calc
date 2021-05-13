@@ -1,0 +1,92 @@
+.social{
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 5px;
+        margin-top: 36px;
+    }
+    &__block{
+        width: 155px;
+        height: 155px;
+        position: relative;
+    }
+    &__icon{
+        position: absolute;
+        z-index: 20;
+        transform: translateX(30px) translateY(42px);
+        svg path {
+            width: 28px;
+            height: 28px;
+            fill: #254FB5;;
+        }
+    }
+    &__circle{
+        position: absolute;
+        top: 0px;
+        left: 25%;      
+        &__wrapper{
+            position: relative;
+            transform: translateX(60%) translateY(13px);
+            z-index: 11;
+        }
+        &_big{
+            position: absolute;
+            width: 74px;
+            height: 74px;
+            background: #ffffff;
+            border-radius: 90px;
+            box-shadow: 0px 15px 26px -2px rgba(24, 70, 156, 0.5);  
+            z-index: 10;
+            top: 5px;
+            left: 4.5px;
+        }       
+        &_small{  
+            position: absolute;     
+            width: 84px;
+            height: 84px; 
+            background: #ffffff;
+            opacity: 0.2;
+            border-radius: 90px;
+            z-index: 10;
+            box-shadow: 0px 22px 26px -2px rgba(14, 60, 145, 0.5);
+        }
+    }
+    &__piece{
+        &_bg{
+            width: 110px;
+            height: 65.79px;
+            background: linear-gradient(297.24deg, #0f4492 8.25%, #1D39A4 91.76%), #3153D2;
+            border-radius: 12.9849px;
+            transform: translateX(25%);
+        }
+        &_big{
+            position: absolute;
+            transform: translateY(-18%);
+            width: 155px;
+            height: 101.83px;
+            background: #ffffff;
+            border-radius: 25px;
+       
+            z-index: 3;
+            font-family: Montserrat;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: $text-color;
+            padding-top: 66px;
+            box-shadow: 0px 4px 15px 1px rgba(11, 43, 102, 0.35);
+        }
+        &_small{
+            position: absolute;
+            width: 135px;
+            height: 104px;
+            background: #ffffff;
+            opacity: 0.3;
+            border-radius: 25px;
+            top: 56px;
+            left: 6%;
+            box-shadow: 0px 4px 15px 1px rgba(11, 43, 102, 0.35);
+        }
+    }
+}
