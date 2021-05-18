@@ -2,41 +2,38 @@
     &_header{
         &_wave{
             position: absolute;
-            z-index: -2;
-            width: 0;
-            height: 0;
-            border: 227px solid transparent;
-            border-bottom: 156px solid #fff;
-            top: -303px;
-            left: -52px;
-            border-bottom-right-radius: 157px;
-            transform: rotate(10deg);
+            position: absolute;
+            top: -189px;
+            width: 100%;
+            height: 300px;
+            background :url('../img/bg_wave_white.svg') no-repeat center;
         }
         &_main{
-            background-color:#DDE5FA;
             position: absolute;
-            width: 100%;
-            height: 454px; 
             z-index: -5;
+            width: 100vh;
+            height: 100%;
+            transform:  translateX(-282px);
+            background: url('../img/bg_blue.svg') no-repeat center;
         }
     } 
 
 }
 .under-main{
-    position: absolute;
-    z-index: -2;
-    width: 0;
-    height: 0;
-    border: 227px solid transparent;
-    border-bottom: 156px solid #DDE5FA;
-    top: 100px;
-    left: -52px;
-    border-bottom-right-radius: 157px;
-    transform: rotate(10deg);
-    &_back{
-        opacity: .3;
-        top: 107px;
-        left: 60px;
-        transform: translateX(-137px) rotate(23deg);
-    }
+    // position: absolute;
+    // z-index: -2;
+    // width: 0;
+    // height: 0;
+    // border: 227px solid transparent;
+    // border-bottom: 156px solid #DDE5FA;
+    // top: 100px;
+    // left: -52px;
+    // border-bottom-right-radius: 157px;
+    // transform: rotate(10deg);
+    // &_back{
+    //     opacity: .3;
+    //     top: 107px;
+    //     left: 60px;
+    //     transform: translateX(-137px) rotate(23deg);
+    // }
 }

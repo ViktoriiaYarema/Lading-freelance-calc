@@ -1,21 +1,24 @@
 .contact{
-    padding-top: 36px;
-    
+    padding-top: 36px;    
     &__block{
+        margin: 0 auto;
         margin-top: 29px;
         text-align: center;
         min-height: 205.64px;
         position: relative;
-        // display: flex;
-        // justify-content: center;
-        // align-items:center;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
         &_sub{            
-            top: 210px;
-            left: 6px;
+            top: 195px;
+            left: 10%;
+            width: 80%;
         }
         &_second{
-            top: 220px;
-            left: 32px;
+            top: 210px;
+            left: 15%;
+            width: 65%;
         }
     }
     &__input{

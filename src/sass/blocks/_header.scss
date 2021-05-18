@@ -5,6 +5,7 @@
     transform: translateY(50%);
 }
 .header{
+    height: 505px;
     position: relative;
     z-index: 3;
     overflow: hidden;
@@ -59,6 +60,10 @@
       
         }
     }
+    &__title{
+        font-family: Montserrat;
+        font-weight: 800;;
+    }
     &__input-lang{
         font-family: Montserrat;
         font-weight: 600;
@@ -87,14 +92,15 @@
             border: none;
         }
     }
-    &__sub-hero{
-        margin-top: 66px;
-        padding-bottom: 75px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    &__sub-hero{        
+        &__wrapper{
+            padding-bottom: 75px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         &__block{
             position: relative;
         }

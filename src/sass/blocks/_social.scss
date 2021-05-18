@@ -1,15 +1,21 @@
 .social{
     padding-top: 20px;
+    &__content{
+        margin: 0 auto;
+        padding: 0 20px;
+    }
     &__wrapper{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px 5px;
+        margin: 0 auto;
         margin-top: 36px;
     }
     &__block{
-        width: 155px;
+        width: 100%;
         height: 155px;
         position: relative;
+        justify-content: center;
     }
     &__icon{
         position: absolute;
@@ -66,7 +72,7 @@
     }
     &__piece{
         &_bg{
-            width: 110px;
+            width: 69%;
             height: 65.79px;
             background: linear-gradient(297.24deg, #0f4492 8.25%, #1D39A4 91.76%), #3153D2;
             border-radius: 12.9849px;
@@ -74,8 +80,8 @@
         }
         &_big{
             position: absolute;
-            transform: translateY(-18%);
-            width: 155px;
+            transform: translateY(-18%) translateX(11%);
+            width: 85%;
             height: 101.83px;
             background: #ffffff;
             border-radius: 25px;
@@ -92,13 +98,13 @@
         }
         &_small{
             position: absolute;
-            width: 135px;
+            width: 70%;
             height: 104px;
             background: #ffffff;
             opacity: 0.3;
             border-radius: 25px;
             top: 56px;
-            left: 6%;
+            left: 17%;
             box-shadow: 0px 4px 15px 1px rgba(11, 43, 102, 0.35);
         }
     }

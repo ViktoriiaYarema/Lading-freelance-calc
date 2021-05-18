@@ -1,9 +1,13 @@
 .app{
     padding-top: 22px;
+    
     &__block{
+        width: 90%;
+        margin: 0 auto;
         margin-top: 26px;
-        &_sub{            
-            transform: translate(8px, -124px);
+        &_sub{
+            width: 75%;            
+            transform: translate(47px, -116px);
         }
     }
     &__title{
@@ -55,7 +59,7 @@
                 display: block;
                 top: 75%;
                 left:-1px;
-                width: 189px;
+                width: 141px;
                 height: 0px;
                 border-top: 2px dashed $main-color;
             }
